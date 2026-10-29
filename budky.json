@@ -772,6 +772,731 @@
     "nazov": "Jarovce - Pri Úrade",
     "lat": 48.0650571,
     "lng": 17.1134388
+  },
+  {
+    "id": 130,
+    "nazov": "Knihobúdka v Parku Komenského / NEFUNKČNÁ",
+    "lat": 48.732328928,
+    "lng": 21.250895262
+  },
+  {
+    "id": 131,
+    "nazov": "Ťahanovská knihobúdka",
+    "lat": 48.757677637,
+    "lng": 21.255803704
+  },
+  {
+    "id": 132,
+    "nazov": "Knihobúdka na Brigádnickej ulici",
+    "lat": 48.714864631,
+    "lng": 21.229780912
+  },
+  {
+    "id": 133,
+    "nazov": "Knihobúdka na Narcisovej",
+    "lat": 48.708255989,
+    "lng": 21.239367127
+  },
+  {
+    "id": 134,
+    "nazov": "Knihobúdka na Petzvalovej",
+    "lat": 48.701136658,
+    "lng": 21.233139038
+  },
+  {
+    "id": 135,
+    "nazov": "Knihobúdka Nad Jazerom",
+    "lat": 48.678253103,
+    "lng": 21.303970814
+  },
+  {
+    "id": 136,
+    "nazov": "Knihobúdka v Zuzkinom Parku / NEFUNKĆNÁ",
+    "lat": 48.718715437,
+    "lng": 21.237612963
+  },
+  {
+    "id": 137,
+    "nazov": "Knižná skriňa Na Helsinskej",
+    "lat": 48.758961358,
+    "lng": 21.266221404
+  },
+  {
+    "id": 138,
+    "nazov": "Knižná skriňa v Novej nemocnici",
+    "lat": 48.722389001,
+    "lng": 21.23878777
+  },
+  {
+    "id": 139,
+    "nazov": "Knižná skriňa v Poliklinke Ťahanovce",
+    "lat": 48.754926191,
+    "lng": 21.267541051
+  },
+  {
+    "id": 140,
+    "nazov": "Knihobúdka v Starej nemocnici",
+    "lat": 48.708291389,
+    "lng": 21.255090237
+  },
+  {
+    "id": 141,
+    "nazov": "Knižná skriňa na onklógii I. ",
+    "lat": 48.709112648,
+    "lng": 21.256136298
+  },
+  {
+    "id": 142,
+    "nazov": "Knižná skriňa na onkológii II.",
+    "lat": 48.708932114,
+    "lng": 21.255315542
+  },
+  {
+    "id": 143,
+    "nazov": "Knihovnička v Džungli",
+    "lat": 48.737338841,
+    "lng": 21.268249154
+  },
+  {
+    "id": 144,
+    "nazov": "Knižný regál na zastávke v Budimíri",
+    "lat": 48.79919626,
+    "lng": 21.304174662
+  },
+  {
+    "id": 145,
+    "nazov": "Knihobúdka na Belanského",
+    "lat": 49.303292969,
+    "lng": 18.787103891
+  },
+  {
+    "id": 146,
+    "nazov": "Knihobúdka na Námestí slobody, Sereď",
+    "lat": 48.286762519,
+    "lng": 17.741262317
+  },
+  {
+    "id": 147,
+    "nazov": "Polhorská knihobúdka Ďakujem, sused",
+    "lat": 48.831694315,
+    "lng": 21.316437721
+  },
+  {
+    "id": 148,
+    "nazov": "Sačurovská knihobúdka Ďakujem, sused",
+    "lat": 48.820350649,
+    "lng": 21.692730188
+  },
+  {
+    "id": 149,
+    "nazov": "Knižná búdka Ďakujem, sused",
+    "lat": 49.001477915,
+    "lng": 21.238838732
+  },
+  {
+    "id": 150,
+    "nazov": "Knihobúdka Slovenské cechy - Ďakuejm, sused",
+    "lat": 48.855538717,
+    "lng": 20.922356844
+  },
+  {
+    "id": 151,
+    "nazov": "Knihobúdka v Gymnáziu - Ďakujem sused",
+    "lat": 49.059033964,
+    "lng": 20.312765837
+  },
+  {
+    "id": 152,
+    "nazov": "Knihobúdka pri ZŠ",
+    "lat": 49.210280266,
+    "lng": 19.284755588
+  },
+  {
+    "id": 153,
+    "nazov": "Knihobúdka pri stanici - Ďakujem, sused",
+    "lat": 49.114641437,
+    "lng": 18.924953341
+  },
+  {
+    "id": 154,
+    "nazov": "Knihobúdka pri knižnici - Ďakujem, sused",
+    "lat": 49.112927909,
+    "lng": 18.923944831
+  },
+  {
+    "id": 155,
+    "nazov": "Knihobúdka pri SPŠ - Ďakujem, sused",
+    "lat": 49.070407855,
+    "lng": 18.933348656
+  },
+  {
+    "id": 156,
+    "nazov": "Knihobúdka pri SNK - Ďakujem, sused",
+    "lat": 49.068988018,
+    "lng": 18.932275772
+  },
+  {
+    "id": 157,
+    "nazov": "Knihobúdka Trebostovo - Ďakujem, sused",
+    "lat": 49.024245908,
+    "lng": 18.857994676
+  },
+  {
+    "id": 158,
+    "nazov": "Knihobúdka v Zechenterovej záhrade - Ďakujem, sused",
+    "lat": 48.703310444,
+    "lng": 18.920195103
+  },
+  {
+    "id": 159,
+    "nazov": "Knihobúdka v Lovčici - Ďakujem, sused",
+    "lat": 48.619200821,
+    "lng": 18.795826435
+  },
+  {
+    "id": 160,
+    "nazov": "Knihobúdka v Lovčici - Ďakujem, sused",
+    "lat": 48.616612025,
+    "lng": 18.790236712
+  },
+  {
+    "id": 161,
+    "nazov": "Knihobúdka v Novom Tekove - Ďakujem, sused ",
+    "lat": 48.250862167,
+    "lng": 18.513636589
+  },
+  {
+    "id": 162,
+    "nazov": "Knihobúdka na Sídlisku Kaška - Ďakujem, sused",
+    "lat": 48.241338309,
+    "lng": 18.308297396
+  },
+  {
+    "id": 163,
+    "nazov": "Knihobúdka v Medickej záhrade",
+    "lat": 48.14943821,
+    "lng": 17.120668888
+  },
+  {
+    "id": 164,
+    "nazov": "Knihobúdka na Jakubovom námestí - Ďakujem, sused",
+    "lat": 48.143396356,
+    "lng": 17.119976878
+  },
+  {
+    "id": 165,
+    "nazov": "Múdrobúdka - Ďakujem, sused",
+    "lat": 48.150483292,
+    "lng": 17.090853453
+  },
+  {
+    "id": 166,
+    "nazov": "Knihobúdka v Senici",
+    "lat": 48.680930825,
+    "lng": 17.367002964
+  },
+  {
+    "id": 167,
+    "nazov": "Knihobúdka v Holíči Collegium - Ďakujem, sused",
+    "lat": 48.809901751,
+    "lng": 17.1628654
+  },
+  {
+    "id": 168,
+    "nazov": "Knihobúdka na ŽS Holíč - Ďakujem, sused",
+    "lat": 48.814840345,
+    "lng": 17.150473595
+  },
+  {
+    "id": 169,
+    "nazov": "Knihobúdka Mojtín - Ďakujem, sused",
+    "lat": 48.984652961,
+    "lng": 18.408493996
+  },
+  {
+    "id": 170,
+    "nazov": "Knihobúdka Ladce - Ďakujem, sused",
+    "lat": 49.039021409,
+    "lng": 18.28401804
+  },
+  {
+    "id": 171,
+    "nazov": "Knihobúdka Pri Radničnej reštaurácii",
+    "lat": 49.224646598,
+    "lng": 18.559089303
+  },
+  {
+    "id": 172,
+    "nazov": "Knihobúdka v Barčianskom parku",
+    "lat": 48.679039433,
+    "lng": 21.267621517
+  },
+  {
+    "id": 173,
+    "nazov": "Knihobúdka na Kisdyho",
+    "lat": 48.734469524,
+    "lng": 21.248781681
+  },
+  {
+    "id": 174,
+    "nazov": "Knihobúdka pri hoteli Kormorán",
+    "lat": 48.010476838,
+    "lng": 17.30838865
+  },
+  {
+    "id": 175,
+    "nazov": "Knihobúdka v Prűgerovej záhrade",
+    "lat": 48.157340224,
+    "lng": 17.097462416
+  },
+  {
+    "id": 176,
+    "nazov": "Knihobúdka pri horárni v Horskom parku",
+    "lat": 48.157132669,
+    "lng": 17.094855309
+  },
+  {
+    "id": 177,
+    "nazov": "Knihovnička v pasáži",
+    "lat": 48.142927439,
+    "lng": 17.109564543
+  },
+  {
+    "id": 178,
+    "nazov": "Knižná búdka pri Kaštieli v Strážkach",
+    "lat": 49.172058647,
+    "lng": 20.454220176
+  },
+  {
+    "id": 179,
+    "nazov": "knihovna za skolou",
+    "lat": 48.199746222,
+    "lng": 17.143805623
+  },
+  {
+    "id": 180,
+    "nazov": "knihovna na Cyprichovej",
+    "lat": 48.194668651,
+    "lng": 17.141139507
+  },
+  {
+    "id": 181,
+    "nazov": "Rožnavská staničná knihobúdka",
+    "lat": 48.635641893,
+    "lng": 20.513808131
+  },
+  {
+    "id": 182,
+    "nazov": "Rožňavská kúpalisková (len v lete)",
+    "lat": 48.658162109,
+    "lng": 20.522922277
+  },
+  {
+    "id": 183,
+    "nazov": "Knihobúdka na Gudernovej ulici",
+    "lat": 48.711024396,
+    "lng": 21.232433081
+  },
+  {
+    "id": 184,
+    "nazov": "Detske ihrisko Plickova",
+    "lat": 48.208471745,
+    "lng": 17.147295177
+  },
+  {
+    "id": 185,
+    "nazov": "Bernolákovo, pred kultúrnym domom",
+    "lat": 48.199438433,
+    "lng": 17.299808264
+  },
+  {
+    "id": 186,
+    "nazov": "Pri kostoloch",
+    "lat": 49.137179288,
+    "lng": 20.218233929
+  },
+  {
+    "id": 187,
+    "nazov": "Javorova alej, pri škole",
+    "lat": 48.224421952,
+    "lng": 17.243160009
+  },
+  {
+    "id": 188,
+    "nazov": "Chorvatsky Grob, park pred OÚ",
+    "lat": 48.227531647,
+    "lng": 17.290152311
+  },
+  {
+    "id": 189,
+    "nazov": "Štrbské Pleso stanica",
+    "lat": 49.118598111,
+    "lng": 20.06360203
+  },
+  {
+    "id": 190,
+    "nazov": "Hlohovec, pri malom ihrisku",
+    "lat": 48.436538671,
+    "lng": 17.816720932
+  },
+  {
+    "id": 191,
+    "nazov": "Kráľová pri Senci",
+    "lat": 48.196932148,
+    "lng": 17.447569503
+  },
+  {
+    "id": 192,
+    "nazov": "Rohovce",
+    "lat": 47.998721409,
+    "lng": 17.407953164
+  },
+  {
+    "id": 193,
+    "nazov": "Šamorín oproti kostolu",
+    "lat": 48.026794086,
+    "lng": 17.31093929
+  },
+  {
+    "id": 194,
+    "nazov": "Šamorín - Dunajská",
+    "lat": 48.026957188,
+    "lng": 17.304479805
+  },
+  {
+    "id": 195,
+    "nazov": "Šamorín - Prvá ul.",
+    "lat": 48.019351112,
+    "lng": 17.327948991
+  },
+  {
+    "id": 196,
+    "nazov": "hrad Červený Kameň",
+    "lat": 48.392422687,
+    "lng": 17.334504457
+  },
+  {
+    "id": 197,
+    "nazov": "Vištuk, základná škola",
+    "lat": 48.334712807,
+    "lng": 17.396534088
+  },
+  {
+    "id": 198,
+    "nazov": "Lozorno, na zastavke BUS",
+    "lat": 48.332149014,
+    "lng": 17.040679273
+  },
+  {
+    "id": 199,
+    "nazov": "hrad Cerveny Kamen, zahrada",
+    "lat": 48.393739682,
+    "lng": 17.334314238
+  },
+  {
+    "id": 200,
+    "nazov": "ZS Nevadzova",
+    "lat": 48.152211558,
+    "lng": 17.154203592
+  },
+  {
+    "id": 201,
+    "nazov": "knihobudka",
+    "lat": 49.247145764,
+    "lng": 16.914759947
+  },
+  {
+    "id": 202,
+    "nazov": "včelia knihobudka",
+    "lat": 48.207878658,
+    "lng": 17.121374531
+  },
+  {
+    "id": 203,
+    "nazov": "Drocárov park ",
+    "lat": 48.709870288,
+    "lng": 21.215046013
+  },
+  {
+    "id": 204,
+    "nazov": "Pezinok Svätoplukova 2 ",
+    "lat": 48.296112388,
+    "lng": 17.265510012
+  },
+  {
+    "id": 205,
+    "nazov": "Trnava železničná stanica ",
+    "lat": 48.3703995,
+    "lng": 17.5846634
+  },
+  {
+    "id": 206,
+    "nazov": "Kaštieľ Sokolovce ",
+    "lat": 48.535573688,
+    "lng": 17.845019556
+  },
+  {
+    "id": 207,
+    "nazov": "Tyršovo nábrežie",
+    "lat": 48.730604685,
+    "lng": 21.255848958
+  },
+  {
+    "id": 208,
+    "nazov": "Park Angelinum",
+    "lat": 48.729936194,
+    "lng": 21.250372982
+  },
+  {
+    "id": 209,
+    "nazov": "Provence café ",
+    "lat": 49.0208972,
+    "lng": 20.5839707
+  },
+  {
+    "id": 210,
+    "nazov": "Knihobúdka v Kerte",
+    "lat": 48.7597949,
+    "lng": 21.9296857
+  },
+  {
+    "id": 211,
+    "nazov": "Budatínsky hrad ",
+    "lat": 49.2367272,
+    "lng": 18.733815
+  },
+  {
+    "id": 212,
+    "nazov": "Rajecké Teplice ",
+    "lat": 49.1273518,
+    "lng": 18.6823753
+  },
+  {
+    "id": 213,
+    "nazov": "Rozhanovce (ObÚ)",
+    "lat": 48.751146847,
+    "lng": 21.343572146
+  },
+  {
+    "id": 214,
+    "nazov": "Namestie MČ Bratislava Vajnory",
+    "lat": 48.206207636,
+    "lng": 17.207229233
+  },
+  {
+    "id": 215,
+    "nazov": "Česká Skalice ",
+    "lat": 50.395825519,
+    "lng": 16.053882395
+  },
+  {
+    "id": 216,
+    "nazov": "Hádzanárske ihrisko Zbehy",
+    "lat": 48.363181663,
+    "lng": 18.019157252
+  },
+  {
+    "id": 217,
+    "nazov": "Vodarenska veža Kolín",
+    "lat": 50.028241489,
+    "lng": 15.180401656
+  },
+  {
+    "id": 218,
+    "nazov": "Kmochův ostrov",
+    "lat": 50.032097586,
+    "lng": 15.19535821
+  },
+  {
+    "id": 219,
+    "nazov": "SOLAX BÚDKA",
+    "lat": 48.632102564,
+    "lng": 21.167837038
+  },
+  {
+    "id": 220,
+    "nazov": "KOSTOLIANSKA KNIHOBÚDKA",
+    "lat": 48.796651457,
+    "lng": 21.241046781
+  },
+  {
+    "id": 221,
+    "nazov": "Brokoffova",
+    "lat": 49.0672842,
+    "lng": 20.3148833
+  },
+  {
+    "id": 222,
+    "nazov": "ŽSR - TEŽ",
+    "lat": 49.060879725,
+    "lng": 20.295390365
+  },
+  {
+    "id": 223,
+    "nazov": "Park pri FACE CLUB",
+    "lat": 49.18874,
+    "lng": 20.456246
+  },
+  {
+    "id": 224,
+    "nazov": "Knihobúdka pri kostole Cyrila a Metoda, Starý juh",
+    "lat": 49.045364317,
+    "lng": 20.296371872
+  },
+  {
+    "id": 225,
+    "nazov": "Detské ihrisko Košická",
+    "lat": 49.064864678,
+    "lng": 20.302516434
+  },
+  {
+    "id": 226,
+    "nazov": "Knihobúdka detské ihrisko LUXOR",
+    "lat": 49.058009033,
+    "lng": 20.285260045
+  },
+  {
+    "id": 227,
+    "nazov": "Knihobúdka fontána Námestie Sv. Egídia",
+    "lat": 49.055121956,
+    "lng": 20.302732631
+  },
+  {
+    "id": 228,
+    "nazov": "Knihobúdka detské ihrisko Nám. Sv. Egídia pri Cafe Restaurant Zvonica",
+    "lat": 49.054927469,
+    "lng": 20.300829615
+  },
+  {
+    "id": 229,
+    "nazov": "Knižná búdka Ostredky",
+    "lat": 13.1246923,
+    "lng": 80.1255313
+  },
+  {
+    "id": 230,
+    "nazov": "priehrada Ľadovo",
+    "lat": 48.329366568,
+    "lng": 19.629101478
+  },
+  {
+    "id": 231,
+    "nazov": "ihrisko Rúbanisko II",
+    "lat": 48.33502497,
+    "lng": 19.643653624
+  },
+  {
+    "id": 232,
+    "nazov": "ihrisko Rúbanisko III",
+    "lat": 48.339205395,
+    "lng": 19.642526752
+  },
+  {
+    "id": 233,
+    "nazov": "ihrisko Rúbanisko I",
+    "lat": 48.335232611,
+    "lng": 19.648960479
+  },
+  {
+    "id": 234,
+    "nazov": "Knihobúdka autobusko",
+    "lat": 48.845547053,
+    "lng": 17.224119834
+  },
+  {
+    "id": 235,
+    "nazov": "Novohradská",
+    "lat": 48.332607237,
+    "lng": 19.662212028
+  },
+  {
+    "id": 236,
+    "nazov": "Park",
+    "lat": 48.327852896,
+    "lng": 19.650060487
+  },
+  {
+    "id": 237,
+    "nazov": "Bottu",
+    "lat": 48.326923348,
+    "lng": 19.674694512
+  },
+  {
+    "id": 238,
+    "nazov": "Kysak",
+    "lat": 48.8530318,
+    "lng": 21.2245882
+  },
+  {
+    "id": 239,
+    "nazov": "Bardejov",
+    "lat": 49.2917382,
+    "lng": 21.2757394
+  },
+  {
+    "id": 240,
+    "nazov": "Bardejov",
+    "lat": 49.293936424,
+    "lng": 21.27352072
+  },
+  {
+    "id": 241,
+    "nazov": "Detské ihrisko \"Kaufland\", Piešťany",
+    "lat": 48.580436362,
+    "lng": 17.811819615
+  },
+  {
+    "id": 242,
+    "nazov": "Knižná búdka o ktorú sa reálně niekto stará (Antiquarian Knihyzaeuro)",
+    "lat": 48.582910704,
+    "lng": 17.849500165
+  },
+  {
+    "id": 243,
+    "nazov": "Knihy + mačka",
+    "lat": 50.093699173,
+    "lng": 14.508918535
+  },
+  {
+    "id": 244,
+    "nazov": "OC Cottbus",
+    "lat": 48.715831059,
+    "lng": 21.217277785
+  },
+  {
+    "id": 245,
+    "nazov": "Halič",
+    "lat": 48.3566719,
+    "lng": 19.5790451
+  },
+  {
+    "id": 246,
+    "nazov": "Debničky pred Antikvariátom",
+    "lat": 48.7194602,
+    "lng": 21.2536635
+  },
+  {
+    "id": 247,
+    "nazov": "Počúvadlo",
+    "lat": 48.4049657,
+    "lng": 18.8557762
+  },
+  {
+    "id": 248,
+    "nazov": "Počúvadlo",
+    "lat": 48.4084811,
+    "lng": 18.8530936
+  },
+  {
+    "id": 249,
+    "nazov": "Pukanec",
+    "lat": 48.3674699,
+    "lng": 18.7406851
+  },
+  {
+    "id": 250,
+    "nazov": "Floriánova ulica",
+    "lat": 48.997078915,
+    "lng": 21.239011549
   }
 ]
-
