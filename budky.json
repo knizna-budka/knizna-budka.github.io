@@ -760,5 +760,18 @@
     "nazov": "Pri Detskom Ihrisku",
     "lat": 48.59197,
     "lng": 17.83678
+  },
+  {
+    "id": 128,
+    "nazov": "Wolfsthal - Hauptsrasse",
+    "lat": 48.1378778,
+    "lng": 17.0008277
+  },
+  {
+    "id": 129,
+    "nazov": "Jarovce - Pri Úrade",
+    "lat": 48.0650571,
+    "lng": 17.1134388
   }
 ]
+
