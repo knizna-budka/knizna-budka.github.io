@@ -748,5 +748,17 @@
     "nazov": "Nám Sv. Františka",
     "lat": 48.1592802,
     "lng": 17.0523292
+  },
+  {
+    "id": 126,
+    "nazov": "Lesná knihovňa - Malá Baňa",
+    "lat": 48.2180105,
+    "lng": 17.1301424
+  },
+  {
+    "id": 127,
+    "nazov": "Pri Detskom Ihrisku",
+    "lat": 48.59197,
+    "lng": 17.83678
   }
 ]
