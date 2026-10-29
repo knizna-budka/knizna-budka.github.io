@@ -3,6 +3,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy
 let budky=[],userMarker=null,nearestMarker=null;
 const navrhyKey="knizne-budky-navrhy";
 const navrhy=JSON.parse(localStorage.getItem(navrhyKey)||"[]");
+const githubIssuesUrl="https://github.com/knizna-budka/knizna-budka.github.io/issues/new?template=navrh-budky.md";
 function pridajMarker(b,navrh=false){const marker=L.marker([b.lat,b.lng]).addTo(map).bindPopup("");marker.bindPopup(document.createTextNode(b.nazov));if(navrh)marker.bindTooltip("Návrh (uložený v tomto zariadení)");return marker;}
 fetch("budky.json").then(r=>r.json()).then(data=>{budky=data.concat(navrhy);data.forEach(b=>pridajMarker(b));navrhy.forEach(b=>pridajMarker(b,true));}).catch(()=>{document.getElementById("status").textContent="Zoznam búdok sa nepodarilo načítať.";});
 const nearestButton=document.getElementById("btn");
@@ -40,16 +41,24 @@ locationStatus.textContent="Zisťujem tvoju polohu…";
 getLocation(pos=>{
 document.getElementById("latitude").value=pos.coords.latitude.toFixed(6);
 document.getElementById("longitude").value=pos.coords.longitude.toFixed(6);
-locationStatus.textContent="Poloha je vyplnená. Pred uložením môžeš súradnice upraviť.";
+locationStatus.textContent="Poloha je vyplnená. Pred odoslaním môžeš súradnice upraviť.";
 },error=>{locationStatus.textContent=error.message;});
 });
 form.addEventListener("submit",event=>{
 event.preventDefault();
 if(!form.reportValidity())return;
 const navrh={nazov:document.getElementById("booth-name").value.trim(),lat:Number(document.getElementById("latitude").value),lng:Number(document.getElementById("longitude").value)};
-if(!navrh.nazov)return;
-try{navrhy.push(navrh);localStorage.setItem(navrhyKey,JSON.stringify(navrhy));}catch(error){locationStatus.textContent="Návrh sa nepodarilo uložiť v tomto zariadení.";return;}
-budky.push(navrh);pridajMarker(navrh,true).openPopup();map.flyTo([navrh.lat,navrh.lng],16);form.reset();form.hidden=true;locationStatus.textContent="Návrh je uložený v tomto zariadení.";
+if(!navrh.nazov||!Number.isFinite(navrh.lat)||!Number.isFinite(navrh.lng))return;
+const title="Návrh knižnej búdky: "+navrh.nazov;
+const body="## Návrh novej búdky\n\n"+
+"- **Názov:** "+navrh.nazov+"\n"+
+"- **Zemepisná šírka:** "+navrh.lat+"\n"+
+"- **Zemepisná dĺžka:** "+navrh.lng+"\n"+
+"- **Mapa:** https://www.google.com/maps?q="+navrh.lat+","+navrh.lng+"\n\n"+
+"## Poznámka\n"+
+"Doplň, kde sa búdka nachádza alebo ako si overil/a jej polohu.\n\n"+
+"_Návrh sa zobrazí v spoločnej mape až po kontrole správcom._";
+window.location.assign(githubIssuesUrl+"&title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body));
 });
 function najdiNajblizsiu(){
 status.textContent="Hľadám najbližšiu búdku…";
@@ -63,6 +72,6 @@ if(!n){status.textContent="Zatiaľ nemáme uložené žiadne búdky.";return;}
 if(nearestMarker)map.removeLayer(nearestMarker);
 nearestMarker=L.circle([n.lat,n.lng],{radius:50,color:"green"}).addTo(map);
 map.flyTo([n.lat,n.lng],16);
-status.innerHTML=`<strong>${n.nazov}</strong><br>Vzdialenosť: ${Math.round(min)} m<br><a class="nav-button" target="_blank" rel="noopener" href="https://maps.google.com/?q=${n.lat},${n.lng}">Navigovať</a>`;
+status.innerHTML="<strong>"+n.nazov+"</strong><br>Vzdialenosť: "+Math.round(min)+" m<br><a class=\"nav-button\" target=\"_blank\" rel=\"noopener\" href=\"https://maps.google.com/?q="+n.lat+","+n.lng+"\">Navigovať</a>";
 },error=>{status.textContent=error.message;});
 }
